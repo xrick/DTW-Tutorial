@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0044)https://www.cs.ucr.edu/~eamonn/UCRsuite.html -->
+<html class="gr__cs_ucr_edu"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Language" content="en-us"><title>UCR Suite for Time Series Subsequence Search</title><script src="chrome-extension://jhffgcfmcckgmioipfnmbannkpncfipo/util.js"></script><script src="chrome-extension://jhffgcfmcckgmioipfnmbannkpncfipo/pagejs.js"></script><script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head><body data-gr-c-s-loaded="true">
+
+<p align="center"><big><font size="6"><big>The UCR Suite: </big></font><big>
+Funded by NSF&nbsp; IIS - 1161997 II.</big></big></p>
+<p align="center"><big><big>This webpage was build in support of the UCR Suite; Software 
+that enables ultrafast subsequence search under both Dynamic Time Warping (DTW) 
+and Euclidean Distance (ED). The work first appeared in a SIGKDD 2012 <a href="https://www.cs.ucr.edu/~eamonn/SIGKDD_trillion.pdf">paper</a>.&nbsp;</big></big><b><span style="color: red;"><font size="5">Best 
+paper award winner</font></span></b><font size="5">.</font></p>
+<p align="center"><span style="font-style: italic;">We observe that UCR-Suite wins in exact query answering
+and on hard queries.</span>. Echihabi et al, <a href="http://www.vldb.org/pvldb/vol12/p112-echihabi.pdf">VLDB</a> 2019.</p>
+<p align="center"><span style="font-style: italic;">Recent optimizations on DTW similarity search </span>(<span style="font-style: italic;">the UCR Suite</span>)<span style="font-style: italic;"> can make this entire operation feasible in real time.&nbsp;</span> Stuart Russell et al <a href="http://www.cs.cmu.edu/~./leili/pubs/vikram-chi2013-handwriting.pdf">CHI</a> 2013<br>
+</p>
+
+<p><big>The UCR Suite was developed by :</big></p>
+<ul>
+	<li>
+	<p class="MsoNormal" style="margin-top: 2pt; margin-bottom: 2pt;"><span style="color: black; font-style: italic;">UC Riverside</span><small style="color: black;">: </small>Thanawin Rakthanmanon, Bilson Campana, 
+	Abdullah Mueen, Qiang Zhu, Jesin Zakaria, Eamonn Keogh
+	</p></li><li>
+	<p class="MsoNormal" style="margin-top: 2pt; margin-bottom: 2pt;"><span style="font-style: italic;">University of Sao Paulo</span>:&nbsp; Gustavo Batista
+	</p></li><li>
+	<p class="MsoNormal" style="margin-top: 2pt; margin-bottom: 2pt;"><span style="font-style: italic;">Brigham and Women's Hospital</span>:&nbsp; Brandon Westover
+	</p></li><li>
+	<p class="MsoNormal" style="margin-top: 2pt; margin-bottom: 2pt;"><small>Authors <i>Rakthanmanon</i>,
+	<i>Campana</i>, <i>Mueen</i> and <i>Batista</i> contributed equally, and 
+	should be consider joint first authors.</small>&nbsp; 
+</p></li></ul>
+<p class="MsoNormal"><big>How fast is the UCR-Suite? It
+depends on the data, query length, query shape, hardware, warping
+constraint etc. However, to a first degree approximation:</big><br>
+</p><ul><li>We can search a million datapoints in a second...</li><li>We can search billions of datapoints in minutes...</li><li>We can search trilliions of datapoints in hours. </li></ul><big>What are the advantages of the UCR-Suite?<br></big><ul><li>It is <span style="font-style: italic;">exact</span>, not <span style="font-style: italic;">aproximate</span>.&nbsp;</li><li>It does not require parameters to be set.</li><li>It requires zero preprocessing time.</li><li>It correctly z-normalizes the data.</li><li>It has no minimum or maximum query length<span style="color: rgb(102, 102, 102);"> (We have searched queries as short as 16 and as long as 72,500, see DNA video)</span></li><li>It can also handle exact queries under <a href="http://www.cs.ucr.edu/~eamonn/vldb04.pdf">uniform scaling</a>.</li><li>The same idea works for both streaming data, and batch offline search.</li><li>Finally, we are simply <span style="font-style: italic;">much</span> faster than any known technique.</li></ul><br><p class="MsoNormal" style="margin-top: 1pt; margin-bottom: 1pt;">Here we show we 
+can search a day-long ECG tracing in 35 seconds under DTW, using a single core.</p>
+<p class="MsoNormal" style="margin-top: 1pt; margin-bottom: 1pt;">Using the same 
+query, we can search a <span style="font-style: italic;">year</span> of ECG (8,518,554,188 datapoints) in 18 minutes 
+using a multi-core machine.</p>
+<p class="MsoNormal" style="margin-top: 1pt; margin-bottom: 1pt;">Thus we can 
+search 256Hz signals about thirty thousand times faster than real time.</p>
+<p class="MsoNormal" style="margin-top: 1pt; margin-bottom: 1pt;"><br>
+</p>
+<iframe src="./UCR Suite for Time Series Subsequence Search_files/d_qLzMMuVQg.html" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" width="560"></iframe>
+<p class="MsoNormal" style="margin-top: 1pt; margin-bottom: 1pt;"><br>
+</p>
+Here we show we can support very long queries. We search for a query of length 72,500 in 21,435,268 datapoints in 18 seconds.<br>The refernce dendrogram we compared to at the end of this video is from:<br>D. P. Locke, et al. 2011. <a href="http://www.ncbi.nlm.nih.gov/pubmed/21270892">Comparative and demographic analysis of orangutan genomes</a>. Nature 469, 529-533.<br>
+<br>
+<iframe src="./UCR Suite for Time Series Subsequence Search_files/c7xz9pVr05Q.html" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" width="560"></iframe><br>
+<br>
+<p>How does changing the width of the warping effect the speed-up? See here for the <a href="https://www.cs.ucr.edu/~eamonn/RW_vary_R.xlsx">numbers</a>,
+however, in brief, it makes very little difference. Over the range of 0
+to&nbsp; 15, which would include the best accuracy setting for the vast
+majority of the UCR archive problems, the difference is bearly
+perceptable<br><big><big><span style="font-weight: bold;"></span></big></big></p>
+<p><big><big><span style="font-weight: bold;">Code</span>:</big></big></p><p><span style="color: black;">
+The </span><a href="https://www.cs.ucr.edu/~eamonn/trillion.zip">code</a><span style="color: black;">. </span><br></p>
+<p><big style="font-weight: bold;"><big>Data</big></big><span style="font-weight: bold;">:</span>&nbsp;
+	</p>
+<ul><li>Face (four) dataset has been available for 8 years <a href="http://www.cs.ucr.edu/~eamonn/time_series_data/">here</a>, with Gun/NoGun data, and all UCR archive data.</li><li>The raw DNA came from <a href="http://genome.ucsc.edu/index.html">UCSC</a>, our code to convert it to time seres is <a href="https://www.cs.ucr.edu/~eamonn/DNAtoTS.zip">here</a>.</li><li>The music symbols where collected by Alicia Fornes, they are <a href="https://www.cs.ucr.edu/~eamonn/music.zip">here</a>. &nbsp;See fig 10 of this <a href="http://www.cs.ucr.edu/~eamonn/ICDMMotif.pdf">paper</a> for samples.&nbsp;</li><li>The online motif data is <a href="http://www.cs.ucr.edu/~mueen/OnlineMotif/index.html">here</a>.</li><li>The code for random walk is <a href="https://www.cs.ucr.edu/~eamonn/randTrillion.zip">here</a>, including the exact seeds we used. See <a href="http://developer.nvidia.com/curand">also</a>.&nbsp;</li><li>The 20 million random walk dataset is <a href="https://www.cs.ucr.edu/~eamonn/RW20M.zip">here</a>, including all the queries used.</li><li>The 22 hours and 23 minutes of ECG data (20,140,000 datapoints) shown in the video above is <a href="https://www.cs.ucr.edu/~eamonn/ECG_one_day.zip">here</a>, together with the exact query.</li><li>The 1,000 star light curve data is the entire training set from StarLighhtCurves archived <a href="http://www.cs.ucr.edu/~eamonn/time_series_data/">here</a>.</li><li>The 1.08 year of &nbsp;ECG data came from <a href="http://physionet.org/cgi-bin/atm/ATM">Physionet.org</a>.
+<a href="https://www.cs.ucr.edu/~eamonn/randTrillion.zip">Here</a> we list the exact set of data we trawled. This is too large for
+our servers to host. If you want the exact data, just send us a 16 Gig thumb 
+	drive with your return address, we will pay return shipping<span style="color: rgb(204, 0, 0);">.</span></li>
+</ul>
+</body></html>
