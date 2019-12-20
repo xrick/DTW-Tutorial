@@ -1,0 +1,74 @@
+window size: 0
+r is 95 and c is 79
+Normalized distance between record01 and record02 : 16399.57251739502
+r is 95 and c is 73
+Normalized distance betweenrecord01 and record03 : 16156.440406799316
+r is 95 and c is 66
+Normalized distance between record01 and record04 : 17036.482765197754
+r is 95 and c is 63
+Normalized distance between record01 and record05 : 16554.435470581055
+r is 95 and c is 57
+Normalized distance between record01 and record06 : 16103.10735321045
+r is 95 and c is 55
+Normalized distance between record01 and record07 : 16984.25580596924
+r is 95 and c is 77
+Normalized distance between record01 and record08 : 26287.856437683105
+r is 95 and c is 80
+Normalized distance between record01 and record09 : 25767.441284179688
+r is 95 and c is 64
+Normalized distance between record01 and record10 : 30913.734649658203
+r is 79 and c is 73
+Normalized distance between record02 and record03 *: 12736.072574615479
+r is 79 and c is 66
+Normalized distance between record02 and record04 *: 11152.924194335938
+r is 79 and c is 63
+Normalized distance between record02 and record05 *: 13086.545978546143
+r is 79 and c is 57
+Normalized distance between record02 and record06 *: 12224.167091369629
+r is 79 and c is 55
+Normalized distance between record02 and record07 *: 13001.05004119873
+r is 79 and c is 73
+Normalized distance between record02 and record03 *: 12736.072574615479
+r is 79 and c is 73
+Normalized distance between record02 and record03 *: 12736.072574615479
+r is 79 and c is 73
+Normalized distance between record02 and record03 *: 12736.072574615479
+
+window size 2
+r is 95 and c is 79
+Normalized distance between record01 and record02 : 384.7604064941406
+r is 95 and c is 73
+Normalized distance betweenrecord01 and record03 : 362.841552734375
+r is 95 and c is 66
+Normalized distance between record01 and record04 : 468.2129669189453
+r is 95 and c is 63
+Normalized distance between record01 and record05 : 289.73950958251953
+r is 95 and c is 57
+Normalized distance between record01 and record06 : 377.95298767089844
+r is 95 and c is 55
+Normalized distance between record01 and record07 : 415.3486328125
+r is 95 and c is 77
+Normalized distance between record01 and record08 : 408.60235595703125
+r is 95 and c is 80
+Normalized distance between record01 and record09 : 385.80774688720703
+r is 95 and c is 64
+Normalized distance between record01 and record10 : 448.69700622558594
+r is 79 and c is 95
+Normalized distance between record02 and record01 *: 439.67686462402344
+r is 79 and c is 73
+Normalized distance between record02 and record03 *: 435.1383514404297
+r is 79 and c is 66
+Normalized distance between record02 and record04 *: 464.2943420410156
+r is 79 and c is 63
+Normalized distance between record02 and record05 *: 410.0335693359375
+r is 79 and c is 57
+Normalized distance between record02 and record06 *: 516.6307373046875
+r is 79 and c is 55
+Normalized distance between record02 and record07 *: 464.3455505371094
+r is 79 and c is 73
+Normalized distance between record02 and record03 *: 435.1383514404297
+r is 79 and c is 73
+Normalized distance between record02 and record03 *: 435.1383514404297
+r is 79 and c is 73
+Normalized distance between record02 and record03 *: 435.1383514404297
+​
