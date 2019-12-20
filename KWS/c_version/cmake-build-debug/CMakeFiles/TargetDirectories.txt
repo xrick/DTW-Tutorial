@@ -1,0 +1,3 @@
+D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/cmake-build-debug/CMakeFiles/test.dir
+D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/cmake-build-debug/CMakeFiles/edit_cache.dir
