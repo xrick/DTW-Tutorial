@@ -9,7 +9,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="26864fc7-6cb3-4723-8618-64d38d887e03" name="Default Changelist" comment="" />
+    <list default="true" id="26864fc7-6cb3-4723-8618-64d38d887e03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +69,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576842677103</updated>
-      <workItem from="1576842681406" duration="1405000" />
+      <workItem from="1576842681406" duration="3367000" />
+      <workItem from="1577070894696" duration="67000" />
+      <workItem from="1577071010099" duration="599000" />
     </task>
     <servers />
   </component>
@@ -76,17 +80,17 @@
       <screen x="0" y="0" width="1097" height="577" />
     </state>
     <state x="2" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1097.577@0.0.1097.577" timestamp="1576842723406" />
-    <state x="278" y="0" key="FileChooserDialogImpl" timestamp="1576845012663">
+    <state x="278" y="0" key="FileChooserDialogImpl" timestamp="1577070223488">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state x="278" y="0" key="FileChooserDialogImpl/0.0.1097.577@0.0.1097.577" timestamp="1576845012663" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1576845050199">
+    <state x="278" y="0" key="FileChooserDialogImpl/0.0.1097.577@0.0.1097.577" timestamp="1577070223488" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1577070677873">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1097.577@0.0.1097.577" timestamp="1576845050199" />
-    <state x="173" y="65" key="com.intellij.ide.util.TipDialog" timestamp="1576842682281">
+    <state x="0" y="0" key="SettingsEditor/0.0.1097.577@0.0.1097.577" timestamp="1577070677873" />
+    <state x="173" y="65" key="com.intellij.ide.util.TipDialog" timestamp="1577071048485">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state x="173" y="65" key="com.intellij.ide.util.TipDialog/0.0.1097.577@0.0.1097.577" timestamp="1576842682281" />
+    <state x="173" y="65" key="com.intellij.ide.util.TipDialog/0.0.1097.577@0.0.1097.577" timestamp="1577071048485" />
   </component>
 </project>
