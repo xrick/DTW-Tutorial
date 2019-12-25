@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/test.dir/dtw.c.obj"
+  "CMakeFiles/test.dir/dtw_ori.c.obj"
   "CMakeFiles/test.dir/main.c.obj"
   "libtest.dll.a"
   "test.exe"

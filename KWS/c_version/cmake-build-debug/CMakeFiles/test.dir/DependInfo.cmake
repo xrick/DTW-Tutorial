@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/dtw.c" "D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/cmake-build-debug/CMakeFiles/test.dir/dtw.c.obj"
+  "D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/dtw_ori.c" "D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/cmake-build-debug/CMakeFiles/test.dir/dtw_ori.c.obj"
   "D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/main.c" "D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/cmake-build-debug/CMakeFiles/test.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
