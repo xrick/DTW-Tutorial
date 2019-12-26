@@ -122,6 +122,60 @@ test/fast:
 	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+dtw.obj: dtw.c.obj
+
+.PHONY : dtw.obj
+
+# target to build an object file
+dtw.c.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/dtw.c.obj
+.PHONY : dtw.c.obj
+
+dtw.i: dtw.c.i
+
+.PHONY : dtw.i
+
+# target to preprocess a source file
+dtw.c.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/dtw.c.i
+.PHONY : dtw.c.i
+
+dtw.s: dtw.c.s
+
+.PHONY : dtw.s
+
+# target to generate assembly for a file
+dtw.c.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/dtw.c.s
+.PHONY : dtw.c.s
+
+dtw_ori.obj: dtw_ori.c.obj
+
+.PHONY : dtw_ori.obj
+
+# target to build an object file
+dtw_ori.c.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/dtw_ori.c.obj
+.PHONY : dtw_ori.c.obj
+
+dtw_ori.i: dtw_ori.c.i
+
+.PHONY : dtw_ori.i
+
+# target to preprocess a source file
+dtw_ori.c.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/dtw_ori.c.i
+.PHONY : dtw_ori.c.i
+
+dtw_ori.s: dtw_ori.c.s
+
+.PHONY : dtw_ori.s
+
+# target to generate assembly for a file
+dtw_ori.c.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/dtw_ori.c.s
+.PHONY : dtw_ori.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -158,6 +212,12 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... edit_cache
+	@echo ... dtw.obj
+	@echo ... dtw.i
+	@echo ... dtw.s
+	@echo ... dtw_ori.obj
+	@echo ... dtw_ori.i
+	@echo ... dtw_ori.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

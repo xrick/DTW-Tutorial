@@ -11,6 +11,18 @@
   <component name="ChangeListManager">
     <list default="true" id="26864fc7-6cb3-4723-8618-64d38d887e03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +49,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MyCRepo/CMakeLists.txt" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
@@ -72,6 +84,7 @@
       <workItem from="1576842681406" duration="3367000" />
       <workItem from="1577070894696" duration="67000" />
       <workItem from="1577071010099" duration="599000" />
+      <workItem from="1577240476142" duration="772000" />
     </task>
     <servers />
   </component>
@@ -80,17 +93,17 @@
       <screen x="0" y="0" width="1097" height="577" />
     </state>
     <state x="2" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1097.577@0.0.1097.577" timestamp="1576842723406" />
-    <state x="278" y="0" key="FileChooserDialogImpl" timestamp="1577070223488">
+    <state x="278" y="0" key="FileChooserDialogImpl" timestamp="1577251851865">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state x="278" y="0" key="FileChooserDialogImpl/0.0.1097.577@0.0.1097.577" timestamp="1577070223488" />
-    <state x="0" y="0" key="SettingsEditor" timestamp="1577070677873">
+    <state x="278" y="0" key="FileChooserDialogImpl/0.0.1097.577@0.0.1097.577" timestamp="1577251851865" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1577241243658">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state x="0" y="0" key="SettingsEditor/0.0.1097.577@0.0.1097.577" timestamp="1577070677873" />
-    <state x="173" y="65" key="com.intellij.ide.util.TipDialog" timestamp="1577071048485">
+    <state x="0" y="0" key="SettingsEditor/0.0.1097.577@0.0.1097.577" timestamp="1577241243658" />
+    <state x="173" y="65" key="com.intellij.ide.util.TipDialog" timestamp="1577251792337">
       <screen x="0" y="0" width="1097" height="577" />
     </state>
-    <state x="173" y="65" key="com.intellij.ide.util.TipDialog/0.0.1097.577@0.0.1097.577" timestamp="1577071048485" />
+    <state x="173" y="65" key="com.intellij.ide.util.TipDialog/0.0.1097.577@0.0.1097.577" timestamp="1577251792337" />
   </component>
 </project>

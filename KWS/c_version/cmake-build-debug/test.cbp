@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/dtw.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/dtw_ori.c">
+			<Option target="test"/>
+		</Unit>
 		<Unit filename="D:/MyGitPrjs/DTW-Tutorial/KWS/c_version/main.c">
 			<Option target="test"/>
 		</Unit>
